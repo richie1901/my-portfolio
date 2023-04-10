@@ -14,7 +14,6 @@ import Spring from '../assets/spring.png';
 import Tailwind from '../assets/tailwind.png';
 import Java from '../assets/java.png';
 import Mysql from '../assets/MYSQL.png';
-import Slide from 'react-reveal/Slide';
 
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");

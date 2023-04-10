@@ -11,7 +11,7 @@ import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Java from '../assets/java.png';
 import Mysql from '../assets/MYSQL.png';
-import Slide from 'react-reveal/Slide';
+import Slide from 'react-awesome-reveal/Slide';
 
 const Skills = () => {
   return (
