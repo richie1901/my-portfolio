@@ -29,7 +29,7 @@ const SocialMediaIcons = () => {
             </a>
             <a
               className='hover:opacity-50 transition duration-500 text-pink-200'
-              href='https://www.linkedin.com/in/richard-adekponya-319b18178/'
+              href='https://github.com/richie1901'
             >
               <FaGithub size={30} />
             </a>
