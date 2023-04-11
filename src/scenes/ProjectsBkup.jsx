@@ -69,12 +69,6 @@ const ProjectTest = ({
 
 const imageData = [
   {
-    label: "AUTHENTICATION/AUTHORISATION ROLE BASED",
-    alt: "image1",
-    src:"../assets/rolebased.png",
-    description:"This Project was built with Java Springboot for JWT role based authentication and authorisation"
-  },
-  {
     label: "Sales Super Admin Management Dashboard",
     alt: "image2",
     src:"../assets/AdminSalesDashboard.png",
@@ -121,6 +115,7 @@ const ProjectsBkup = () => {
   const [selectedPage, setSelectedPage] = useState("projects");
   const [index, setIndex] = useState(0);
   const [currentIndex, setCurrentIndex] = useState();
+  
   function handleChange(index) {
     setCurrentIndex(index);
   }
