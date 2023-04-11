@@ -16,7 +16,7 @@ const References = () => {
         viewport={{ once: false, amount: 0.5 }}
         transition={{ duration: 0.5 }}
         variants={{
-          hidden: { opacity: 0.1, y: -50 },
+          hidden: { opacity: 0, y: -50 },
           visible: { opacity: 1, y: 0 },
         }}
       >
@@ -38,7 +38,7 @@ const References = () => {
         viewport={{ once: false, amount: 0.5 }}
         transition={{ duration: 0.5 }}
         variants={{
-          hidden: { opacity: 0.1, y: -50 },
+          hidden: { opacity: 0, y: -50 },
           visible: { opacity: 1, y: 0 },
         }}
       >
@@ -63,7 +63,7 @@ const References = () => {
         viewport={{ once: false, amount: 0.5 }}
         transition={{ duration: 0.5 }}
         variants={{
-          hidden: { opacity: 0.1, y: -50 },
+          hidden: { opacity: 0, y: -50 },
           visible: { opacity: 1, y: 0 },
         }}
       >
@@ -88,7 +88,7 @@ const References = () => {
         viewport={{ once: false, amount: 0.5 }}
         transition={{ duration: 0.5 }}
         variants={{
-          hidden: { opacity: 0.1, y: -50 },
+          hidden: { opacity: 0, y: -50 },
           visible: { opacity: 1, y: 0 },
         }}
       >
@@ -112,7 +112,7 @@ const References = () => {
         viewport={{ once: false, amount: 0.5 }}
         transition={{ duration: 0.5 }}
         variants={{
-          hidden: { opacity: 0.1, y: -50 },
+          hidden: { opacity: 0, y: -50 },
           visible: { opacity: 1, y: 0 },
         }}
       >

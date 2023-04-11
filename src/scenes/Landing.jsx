@@ -66,10 +66,15 @@ const Landing = ({ setSelectedPage }) => {
               Esper
             </span> */}
           {/* </p> */}
-
           <p className="mt-10 mb-7 text-xl text-center md:text-start">
           <span className="text-6xl font-playfair z-10 text-center md:text-start text-[#1da1aa]">
-            Richard Kabu Adekponya</span> <span className='text-xl text-pink-400' > is a problem solver</span>. The main motive for pursuing a software engineer career path. The combination of creativity and skill required to make something beautiful from code continues to repeatedly ignite my love for programming. I have developed<span className='text-xl text-pink-400'> strong analytic skills</span> to be able to unpack the technical requirements from client demands, dedication to achieving a team goal.<span className='text-xl text-pink-400' > I'm driven, a team player, a very quick learner, a good communicator, highly self-motivated</span> and able to work without much supervision. Outside of code you can find me on the pitch or at the studio.</p>
+            Hi   Richard Kabu Adekponya Here!
+            </span>
+            </p>
+          <p className="mt-10 mb-7 text-xl text-center md:text-start">
+          {/* <span className="text-6xl font-playfair z-10 text-center md:text-start text-[#1da1aa]">
+            Richard Kabu Adekponya</span>  */}
+            I'm a<span className='text-xl text-pink-400' >  Fullstack Developer.</span> I'm <span className='text-xl text-pink-400' >  driven, a team player, a very quick learner, a good communicator, highly self-motivated</span> and able to work without much <span className='text-xl text-pink-400' >supervision.</span> Outside of code you can find me on the pitch or at the studio.</p>
         </motion.div>
 
         {/* CALL TO ACTIONS */}
