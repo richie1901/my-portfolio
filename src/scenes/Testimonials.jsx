@@ -1,5 +1,7 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Testimonials = () => {
   return (
