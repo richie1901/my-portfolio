@@ -4,6 +4,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 // import Logo from '../assets/logoRichie.png';
 import MyCv from "../assets/files/RICHARD_ADEKPONYA_CV.pdf";
+import updatedCv from "../assets/files/richard's_cv.pdf";
 import { BsDownload } from "react-icons/bs";
 import Tooltip from "@mui/material/Tooltip";
 import { Box, Button, Typography, useTheme } from "@mui/material";
@@ -115,7 +116,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
              <BsDownload size={30} />
             </a> */}
             <Tooltip title="Download CV">
-              <a href={MyCv} download="Richard's Resume" target="_blank">
+              <a href={updatedCv} download="Richard's Resume" target="_blank">
                 <Button  style={{ backgroundColor: 'bg-[#1da1aa]',color:'white' }}>
                 <span className="ml-10">  <BsDownload size={25} />  </span> 
                 </Button>
@@ -189,7 +190,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
             <SocialMediaIcons />
             <Tooltip title="Download CV">
-              <a href={MyCv} download="Richard's Resume" target="_blank">
+              <a href={updatedCv} download="Richard's Resume" target="_blank">
               <Button style={{ backgroundColor: 'bg-[#1da1aa]',color:'yellow' }}>
                 <span className="ml-10">  <BsDownload size={25} />  </span> <span className="ml-5">My CV</span>
                 </Button>
