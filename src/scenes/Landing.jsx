@@ -73,8 +73,7 @@ const Landing = ({ setSelectedPage }) => {
             </p>
           <p className="mt-10 mb-7 text-xl text-center md:text-start">
           {/* <span className="text-6xl font-playfair z-10 text-center md:text-start text-[#1da1aa]">
-            Richard Kabu Adekponya</span>  */}
-            I'm a<span className='text-xl text-pink-400' >  Fullstack Developer.</span> I'm <span className='text-xl text-pink-400' >  driven, a team player, a very quick learner, a good communicator, highly self-motivated</span> and able to work without much <span className='text-xl text-pink-400' >supervision.</span> Outside of code you can find me on the pitch or at the studio.</p>
+            Richard Kabu Adekponya</span>  */} A<span className='text-xl text-pink-400' > Backend Engineer</span> with over<span className='text-xl text-pink-400' > 5 years of experience designing and implementing scalable,robust and high-performance backend/server-side application systems.</span> I hold a<span className='text-xl text-pink-400' > BSc in Computer Engineering from the University of Ghana,</span> and I've honed my skills in<span className='text-xl text-pink-400' > Spring Boot, Golang, microservices, and cloud-native architectures with knowledge in CI/CDs and Docker Containerisation</span> throughout my career. Outside of code you can find me on the pitch or at the studio.</p>
         </motion.div>
 
         {/* CALL TO ACTIONS */}

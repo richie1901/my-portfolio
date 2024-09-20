@@ -1,9 +1,7 @@
 import Navbar from "./scenes/Navbar";
 import Landing from "./scenes/Landing";
 import DotGroup from "./scenes/DotGroup";
-import SocialMediaDotGroup from "./components/SocialMediaDotGroup";
 import Skills from "./scenes/MySkills";
-import Resume from "./scenes/Resume";
 import LineGradient from "./components/LineGradient";
 import Projects from "./scenes/ProjectsBkup";
 import Contact from "./scenes/Contact";
@@ -104,7 +102,7 @@ function App() {
       </div>
       <LineGradient /> */}
       
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/7 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"

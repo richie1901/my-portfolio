@@ -26,12 +26,13 @@ const References = () => {
           </p>
           <div className="flex justify-center mt-5">
             <LineGradient width="w-2/3" />
+            <p className="mt-4 mb-4"></p>
           </div>
-          <p className="mt-2 mb-2">Here's what people have about Richard!</p>
+          {/* <p className="mt-2 mb-2">Here's what people have about Richard!</p> */}
         </div>
       </motion.div>
      
-<div class="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2">
+<div class="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-4">
 <motion.div
         initial="hidden"
         whileInView="visible"
@@ -95,7 +96,7 @@ const References = () => {
     <figure class="flex flex-col items-center justify-center p-8 text-center bg-[#000008] border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
         <blockquote class="max-w-2xl mx-auto mb-4 text-white lg:mb-8 dark:text-gray-400">
             <h3 class="text-xl font-semibold text-white dark:text-white">Meet Deadlines</h3>
-            <p class="my-4"><span class="text-3xl">“</span> He has the capabilities of meeting deadlines as scheduled and would communicate effectively in cases deadlines are not met stating reasons for accountaability.</p>
+            <p class="my-4"><span class="text-3xl">“</span> He has the capabilities of meeting deadlines as scheduled, Great Personality skills.</p>
         </blockquote>
         <figcaption class="flex items-center justify-center space-x-3">
             <img class="rounded-full w-9 h-9" src={Philip} alt="profile picture"></img>
@@ -119,10 +120,9 @@ const References = () => {
     <figure class="flex flex-col items-center justify-center p-8 text-center bg-[#000008] border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
         <blockquote class="max-w-2xl mx-auto mb-4 text-white lg:mb-8 dark:text-gray-400">
             <h3 class="text-xl font-semibold text-white dark:text-white">Well Rounded</h3>
-            <p class="my-4"><span class="text-3xl">“</span> He is able to foresee the impact of software he designs stays
-            abreast with latest technological developments.</p>
+            <p class="my-4"><span class="text-3xl">“</span> He is able to foresee the impact of software he designs stays with evolving technology concepts.</p>
         </blockquote>
-        <figcaption class="flex items-center justify-center space-x-3 mt-6">
+        <figcaption class="flex items-center justify-center space-x-3">
             <img class="rounded-full w-9 h-9" src={Alfy} alt="profile picture"></img>
             <div class="space-y-0.5 font-medium dark:text-white text-left">
                 <div>Alfred Ternor</div>
