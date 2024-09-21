@@ -81,11 +81,15 @@ const imageData = [
 ];
 const renderSlides = imageData.map((image) => (
   
-  <div className="app" key={image.alt}>
-   <Button
+  <div className="carousel-container" key={image.alt}>
+   
+          
+    <img src={image.src} alt={image.alt} />
+    
+    <Button
             // type="submit"
             // color="secondary"
-            style={{ backgroundColor: "green" }}
+            style={{ backgroundColor: "black" }}
             variant="contained"
             startIcon={<LoginIcon />}
           >
@@ -100,11 +104,7 @@ const renderSlides = imageData.map((image) => (
           {image.repo}
         </a>
           </Button>
-          
-    <img src={image.src} alt={image.alt} />
-    
-    
-          <p className="legend mt-20 mb-0 bg-white-100 text-white">
+          <p className="mt-5 bg-white-100 text-white">
     {image.description}</p>
   </div>
   
