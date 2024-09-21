@@ -54,6 +54,7 @@ const imageData = [
     label: "Sales Super Admin Management Dashboard",
     alt: "image2",
     src:require('../assets/AdminSalesDashboard.png'),
+    href:"https://github.com/richie1901/",
     repo:"Demo",
     description:"This Project was solely built with react.js with mock data for testing entire dashboard processing"
   },
@@ -61,6 +62,7 @@ const imageData = [
     label: "Employee Management System",
     alt: "image3",
     src:require('../assets/management.png'),
+    href:"https://github.com/richie1901/",
     repo:"Demo",
     description:"This Project was built with Java Springboot as the backend framework and react.js as the from facing framework"
   },
@@ -68,6 +70,7 @@ const imageData = [
     label: "Employee Management System",
     alt: "image3",
     src:require('../assets/work1.png'),
+    href:"https://github.com/richie1901/",
     repo:"Demo",
     description:"This Project was built with Java Springboot as the backend framework and react.js as the from facing framework"
   },
@@ -75,6 +78,7 @@ const imageData = [
     label: "Employee Management System",
     alt: "image3",
     src:require('../assets/work3.png'),
+    href:"https://github.com/richie1901/",
     repo:"Demo",
     description:"This Project was built with Java Springboot as the backend framework and react.js as the from facing framework"
   }
@@ -99,8 +103,8 @@ const renderSlides = imageData.map((image) => (
             >
               Request Demo
             </AnchorLink> */}
-            
-            <a href={image.href} target="_blank">
+                        
+            <a href={image.href} target="_blank" rel="noreferrer">
           {image.repo}
         </a>
           </Button>
