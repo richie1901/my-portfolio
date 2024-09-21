@@ -3,7 +3,7 @@ import Landing from "./scenes/Landing";
 import DotGroup from "./scenes/DotGroup";
 import Skills from "./scenes/MySkills";
 import LineGradient from "./components/LineGradient";
-import Projects from "./scenes/ProjectsBkup";
+import Projects from "./scenes/Projects";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
 import useMediaQuery from "./hooks/useMediaQuery";
@@ -31,7 +31,7 @@ function App() {
   }, []);
 
   return (
-    <div className="app bg-slate-300">
+    <div className="app bg-slate-100">
       <Navbar
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}

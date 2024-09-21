@@ -8,6 +8,65 @@ body,
 #root,
 .app {
   height: 100%;
-  background-color: #000009;
+  background-color: #000000;
   @apply text-white;
 }
+
+/* App.css */
+.carousel-container {
+  width: 50%;  /* Adjust based on desired size */
+  /* margin: auto; */
+  background-color: #000000;
+  height: 50%;
+  margin: auto;
+  justify-content: center;
+  position: relative;
+}
+
+.slider-image {
+  width: 50%;
+  height: 50%;
+}
+
+.image-slider {
+  position: relative;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 450px;
+  height: 300px;
+  border-radius: 12px;
+}
+.left {
+  position: absolute;
+  left: 3rem;
+  top: 50%;
+  font-size: 1rem;
+  color: blue;
+  z-index: 5;
+  cursor: pointer;
+  user-select: none;
+}
+.right {
+  position: absolute;
+  right: 3rem;
+  top: 50%;
+  font-size: 2rem;
+  color: blue;
+  z-index: 5;
+  cursor: pointer;
+  user-select: none;
+}
+.currentSlide {
+  transition-duration: 0.5s ease;
+  opacity: 0;
+}
+.currentSlide.active {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+}
+h2 {text-align: center;} 

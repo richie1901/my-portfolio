@@ -80,7 +80,7 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/touch.jpg" alt="contact bg-black " width={400} />
+          {/* <img src="../assets/touch.jpg" alt="contact bg-black " width={600} height={60} /> */}
         </motion.div>
 
         <motion.div
