@@ -55,7 +55,7 @@ const imageData = [
     alt: "image2",
     src:require('../assets/AdminSalesDashboard.png'),
     href:"https://github.com/richie1901/",
-    repo:"Demo",
+    repo:"Repository",
     description:"This Project was solely built with react.js with mock data for testing entire dashboard processing"
   },
   {
@@ -63,7 +63,7 @@ const imageData = [
     alt: "image3",
     src:require('../assets/management.png'),
     href:"https://github.com/richie1901/",
-    repo:"Demo",
+    repo:"Repository",
     description:"This Project was built with Java Springboot as the backend framework and react.js as the from facing framework"
   },
   {
@@ -71,7 +71,7 @@ const imageData = [
     alt: "image3",
     src:require('../assets/work1.png'),
     href:"https://github.com/richie1901/",
-    repo:"Demo",
+    repo:"Repository",
     description:"This Project was built with Java Springboot as the backend framework and react.js as the from facing framework"
   },
   {
@@ -79,7 +79,7 @@ const imageData = [
     alt: "image3",
     src:require('../assets/work3.png'),
     href:"https://github.com/richie1901/",
-    repo:"Demo",
+    repo:"Repository",
     description:"This Project was built with Java Springboot as the backend framework and react.js as the from facing framework"
   }
 ];
