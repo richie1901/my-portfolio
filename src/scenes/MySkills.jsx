@@ -16,6 +16,8 @@ import Spring from '../assets/spring.png';
 import Tailwind from '../assets/tailwind.png';
 import Java from '../assets/java.png';
 import Mysql from '../assets/MYSQL.png';
+import REDIS from '../assets/redis.png';
+import RABBITMQ from '../assets/rabbitmq.png';
 
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -47,7 +49,7 @@ const MySkills = () => {
         </p> */}
       </motion.div>
       
-      <div className='w-full grid grid-cols-2 sm:grid-cols-7 gap-7 text-center py-8'>
+      <div className='w-full grid grid-cols-2 sm:grid-cols-8 gap-7 text-center py-8'>
           
           <div className='shadow-md shadow-[#6a8bb4] hover:scale-110 duration-500'>
               <img className='w-20 mx-auto rounded-lg' src={Java} alt="HTML icon" />
@@ -99,6 +101,14 @@ const MySkills = () => {
               <img className='w-20 mx-auto' src={Spring} alt="HTML icon" />
               <p className='my-4'>SPRING FRAMEWORK</p>
           </div>
+          <div className='shadow-md shadow-[#6a8bb4] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={REDIS} alt="HTML icon" />
+                  <p className='my-4'>REDIS</p>
+              </div>
+              <div className='shadow-md shadow-[#6a8bb4] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={RABBITMQ} alt="HTML icon" />
+                  <p className='my-4'>RABBITMQ</p>
+              </div>
           <div className='shadow-md shadow-[#6a8bb4] hover:scale-110 duration-500'>
               <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
               <p className='my-4'>HTML</p>
